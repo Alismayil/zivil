@@ -1,0 +1,92 @@
+#images-in-buttons {
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.text-btn-1 {
+	color: $color_1;
+	background-color: $background-color_1;
+	padding: 10px 17px;
+	border-radius: 40px;
+	margin-left: 10%;
+	&:hover {
+		background-color: $background-color_5;
+		transition: 0.3s;
+	}
+}
+.text-btn-2 {
+	color: $color_1;
+	background-color: $background-color_1;
+	padding: 10px 17px;
+	border-radius: 40px;
+	&:hover {
+		background-color: $background-color_5;
+		transition: 0.3s;
+	}
+}
+.btns1 {
+	padding: 7px;
+	background-color: $background-color_4;
+	padding: 7px;
+	background-color: $background-color_4;
+	padding: 7px;
+	background-color: $background-color_4;
+	a {
+		padding: 2px;
+		color: $color_2;
+		padding: 2px;
+		color: $color_2;
+		padding: 2px;
+		color: $color_2;
+		&:hover {
+			color: $color_1;
+			color: $color_1;
+			color: $color_1;
+		}
+	}
+	&:hover {
+		background-color: $background-color_1;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+		transform: translateX(10px);
+		transition: 0.5s;
+		background-color: $background-color_1;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+		transform: translateX(10px);
+		transition: 0.5s;
+		background-color: $background-color_1;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+		transform: translateX(10px);
+		transition: 0.5s;
+	}
+}
+.img-btn {
+	position: relative;
+	position: relative;
+	position: relative;
+}
+.img-btn:hover{
+	.btns{
+		opacity: 1;
+	}
+}
+.btns{
+	opacity: 0;
+	display: flex;
+	gap: 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	display: flex;
+	gap: 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	display: flex;
+	gap: 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+
